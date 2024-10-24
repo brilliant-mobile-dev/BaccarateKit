@@ -10,8 +10,8 @@ Pod::Spec.new do |spec|
   spec.author       = { "Rith" => "rith@lomatechnology.com" }
   spec.source       = { :git => "https://github.com/brilliant-mobile-dev/BaccarateKit.git", :tag => spec.version.to_s }
   spec.swift_versions = "5.0"
-  spec.source_files = "Baccarate/**/*.{swift,m,h}"
-  spec.resources    = "Baccarate/**/*.{xcassets,json,png,jpeg,plist,storyboard,xib,strings}"
+  spec.source_files = "BaccarateKit/**/*.{swift,m,h}"
+  spec.resources    = "BaccarateKit/**/*.{xcassets,json,png,jpeg,plist,storyboard,xib,strings}"
   spec.requires_arc = true
   spec.static_framework = true
   spec.framework  = "Foundation"
