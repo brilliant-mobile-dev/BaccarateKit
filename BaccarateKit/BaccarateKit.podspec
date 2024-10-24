@@ -11,6 +11,11 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/brilliant-mobile-dev/BaccarateKit.git", :tag => spec.version.to_s }
   spec.swift_versions = "5.0"
   spec.source_files = "BaccarateKit/**/*.{swift,m,h}"
+#  spec.resource_bundles = {
+#     'BaccarateKit' => [
+#       'BaccarateKit/**/*.{storyboard,xcassets,json,png,jpeg,plist,xib,strings}'
+#     ]
+#   }
   spec.resources    = "BaccarateKit/**/*.{xcassets,json,png,jpeg,plist,storyboard,xib,strings}"
   spec.requires_arc = true
   spec.static_framework = true
