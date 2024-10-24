@@ -25,7 +25,7 @@
         <!--Game RoomVC-->
         <scene sceneID="TaT-V1-xnt">
             <objects>
-                <viewController storyboardIdentifier="GameRoomVC" id="pmf-aw-rn9" customClass="GameRoomVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GameRoomVC" id="pmf-aw-rn9" customClass="GameRoomVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ux2-H6-Lzc"/>
                         <viewControllerLayoutGuide type="bottom" id="gtx-l1-OJN"/>
@@ -112,7 +112,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="KuE-cn-im3">
                                         <rect key="frame" x="38" y="2" width="230" height="30"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" horizontalHuggingPriority="255" horizontalCompressionResistancePriority="755" translatesAutoresizingMaskIntoConstraints="NO" id="CTR-td-1zC" userLabel="ViewBetLimit" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" horizontalHuggingPriority="255" horizontalCompressionResistancePriority="755" translatesAutoresizingMaskIntoConstraints="NO" id="CTR-td-1zC" userLabel="ViewBetLimit" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="112.66666666666667" height="30"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Match No: MB-01" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="jPp-FK-70F">
@@ -167,7 +167,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" horizontalHuggingPriority="253" horizontalCompressionResistancePriority="753" translatesAutoresizingMaskIntoConstraints="NO" id="4wW-6f-feC" userLabel="ViewMatchNum" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" horizontalHuggingPriority="253" horizontalCompressionResistancePriority="753" translatesAutoresizingMaskIntoConstraints="NO" id="4wW-6f-feC" userLabel="ViewMatchNum" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="117.66666666666666" y="0.0" width="112.33333333333334" height="30"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Match No: MB-07" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="7TV-3Q-UxM">
@@ -224,7 +224,7 @@
                                             <constraint firstAttribute="width" constant="82" id="zCV-rg-on4"/>
                                         </constraints>
                                     </view>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFV-Op-c70" customClass="ButtonDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFV-Op-c70" customClass="ButtonDesign" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="360" y="0.0" width="30" height="30"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -245,10 +245,10 @@
                                             <action selector="switchTableButtonAction:" destination="pmf-aw-rn9" eventType="touchUpInside" id="h2f-gv-XXj"/>
                                         </connections>
                                     </button>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="duR-Zw-OCO" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
-                                        <rect key="frame" x="8" y="37" width="377" height="177.33333333333337"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="duR-Zw-OCO" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="37" width="377" height="177.33333333333334"/>
                                         <subviews>
-                                            <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4D1-NT-klr" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4D1-NT-klr" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="119.66666666666667" height="84.666666666666671"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RqE-pP-x7d">
@@ -357,7 +357,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UYo-yp-fKX" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UYo-yp-fKX" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="128.66666666666666" y="0.0" width="119.66666666666666" height="84.666666666666671"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tie" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JWg-aa-bvj">
@@ -466,7 +466,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AYc-AA-7fp" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AYc-AA-7fp" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="257.33333333333331" y="0.0" width="119.66666666666669" height="84.666666666666671"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2K-ml-G1N">
@@ -575,7 +575,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QQI-Iv-gqh" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QQI-Iv-gqh" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="92.666666666666686" width="184" height="84.666666666666686"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X5s-2z-hj8">
@@ -719,7 +719,7 @@
                                                     <constraint firstAttribute="width" constant="1" id="wkQ-gf-yHS"/>
                                                 </constraints>
                                             </view>
-                                            <view tag="5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Xx-c9-JaT" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <view tag="5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Xx-c9-JaT" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="193" y="92.666666666666686" width="184" height="84.666666666666686"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Dw-qx-2gQ">
@@ -876,7 +876,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YAH-uI-Km0">
                                         <rect key="frame" x="8" y="0.0" width="25" height="34"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icR-qG-IDU" customClass="ButtonDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icR-qG-IDU" customClass="ButtonDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="4.6666666666666856" width="25" height="25"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.30133928570000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -895,7 +895,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXd-Kf-yPy" customClass="ButtonDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXd-Kf-yPy" customClass="ButtonDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="25" height="34"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -930,7 +930,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="QMt-2u-PZn">
                                                 <rect key="frame" x="8" y="0.0" width="377" height="75"/>
                                                 <subviews>
-                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AhB-Wn-1Pg" customClass="ButtonDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AhB-Wn-1Pg" customClass="ButtonDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="22.666666666666686" width="30" height="30"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
@@ -965,14 +965,14 @@
                                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                         </collectionViewFlowLayout>
                                                         <cells>
-                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="Kmw-48-DrN" customClass="CoinCVCell" customModule="Baccarat_Live" customModuleProvider="target">
+                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="Kmw-48-DrN" customClass="CoinCVCell" customModule="BaccarateKit" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="7.666666666666667" width="60" height="60"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                     <subviews>
-                                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VHf-9j-6p4" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VHf-9j-6p4" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                                             <rect key="frame" x="4" y="0.0" width="52" height="60"/>
                                                                             <subviews>
                                                                                 <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="selectCoinCircle" translatesAutoresizingMaskIntoConstraints="NO" id="NM2-bU-QST">
@@ -1052,7 +1052,7 @@
                                                             <outlet property="delegate" destination="pmf-aw-rn9" id="MBc-6F-gJD"/>
                                                         </connections>
                                                     </collectionView>
-                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DDb-O2-qNX" customClass="ButtonDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DDb-O2-qNX" customClass="ButtonDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="22.666666666666686" width="30" height="30"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
@@ -1093,7 +1093,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="9no-0g-6Tl">
                                         <rect key="frame" x="8" y="294.33333333333337" width="377" height="36.666666666666686"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ibw-XW-r4V" customClass="ButtonDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ibw-XW-r4V" customClass="ButtonDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="36.666666666666664"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -1121,7 +1121,7 @@
                                                     <action selector="cancelButtonAction:" destination="pmf-aw-rn9" eventType="touchUpInside" id="cha-AB-33t"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1nk-aU-5bi" customClass="ButtonDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1nk-aU-5bi" customClass="ButtonDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="129.66666666666666" y="0.0" width="117.66666666666666" height="36.666666666666664"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -1149,7 +1149,7 @@
                                                     <action selector="repeatButtonAction:" destination="pmf-aw-rn9" eventType="touchUpInside" id="OjJ-kQ-fFf"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TKM-hi-nto" customClass="ButtonDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TKM-hi-nto" customClass="ButtonDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="259.33333333333331" y="0.0" width="117.66666666666669" height="36.666666666666664"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -1180,10 +1180,10 @@
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </stackView>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T6J-ne-fi1" userLabel="Result View" customClass="GradientView" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T6J-ne-fi1" userLabel="Result View" customClass="GradientView" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="336" width="393" height="50"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lh9-h7-ciW" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lh9-h7-ciW" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="8" y="0.0" width="41" height="50"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iXx-ry-LfG" userLabel="line">
@@ -1227,7 +1227,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Jru-po-6l6">
                                                 <rect key="frame" x="50" y="0.0" width="175" height="50"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bxF-JV-OUC" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bxF-JV-OUC" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="34.333333333333336" height="50"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I8s-KZ-2B7" userLabel="line">
@@ -1269,7 +1269,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="29S-X9-16n" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="29S-X9-16n" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                         <rect key="frame" x="35.333333333333329" y="0.0" width="34" height="50"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uP4-U7-j7Q">
@@ -1310,7 +1310,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pKi-i9-pBF" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pKi-i9-pBF" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                         <rect key="frame" x="70.333333333333329" y="0.0" width="34.333333333333329" height="50"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tie" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7x-sa-cPZ">
@@ -1353,7 +1353,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qrr-Y8-cjr" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qrr-Y8-cjr" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                         <rect key="frame" x="105.66666666666666" y="0.0" width="34" height="50"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vkg-AT-LYs">
@@ -1394,7 +1394,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IXZ-rj-9iQ" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IXZ-rj-9iQ" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                         <rect key="frame" x="140.66666666666666" y="0.0" width="34.333333333333343" height="50"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Wt-Tl-b26">
@@ -1442,7 +1442,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Iwm-vw-6fL">
                                                 <rect key="frame" x="245" y="0.0" width="140" height="50"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eEh-IM-tM4" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eEh-IM-tM4" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="63.333333333333336" height="50"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P Road" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nmi-x6-jib">
@@ -1520,7 +1520,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IM0-sQ-HAc" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IM0-sQ-HAc" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                         <rect key="frame" x="69.333333333333314" y="0.0" width="70.666666666666686" height="50"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B Road" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kqy-tW-80x">
@@ -1637,16 +1637,16 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="diagonalMode" value="NO"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uw1-AO-OnT" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uw1-AO-OnT" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="216.33333333333329" width="393" height="119.66666666666666"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hlD-AT-zw5" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hlD-AT-zw5" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="8" y="0.0" width="188.66666666666666" height="119.66666666666667"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="playerBG" translatesAutoresizingMaskIntoConstraints="NO" id="NDq-kf-GLq">
                                                         <rect key="frame" x="0.0" y="0.0" width="188.66666666666666" height="119.66666666666667"/>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P    9" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxy-vC-eY0" customClass="GradientLabel" customModule="Baccarat_Live" customModuleProvider="target">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P    9" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxy-vC-eY0" customClass="GradientLabel" customModule="BaccarateKit" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="89.666666666666686" width="188.66666666666666" height="30"/>
                                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
@@ -1656,7 +1656,7 @@
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dep-3o-Cpn" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dep-3o-Cpn" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="3" width="188.66666666666666" height="116.66666666666667"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TriangleWinLeft" translatesAutoresizingMaskIntoConstraints="NO" id="o6i-eA-Flc">
@@ -1749,14 +1749,14 @@
                                                     <constraint firstItem="PlW-WU-5cN" firstAttribute="leading" secondItem="hlD-AT-zw5" secondAttribute="leading" constant="20" id="wvV-7m-vM6"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="teg-HR-Tel" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="teg-HR-Tel" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="196.66666666666663" y="0.0" width="188.33333333333337" height="119.66666666666667"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bankerBG" translatesAutoresizingMaskIntoConstraints="NO" id="NFh-Xt-4Nw">
                                                         <rect key="frame" x="0.0" y="0.0" width="214" height="118"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P    9" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SbQ-aL-QaQ" customClass="GradientLabel" customModule="Baccarat_Live" customModuleProvider="target">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P    9" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SbQ-aL-QaQ" customClass="GradientLabel" customModule="BaccarateKit" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="89.666666666666686" width="188.33333333333334" height="30"/>
                                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
@@ -1766,7 +1766,7 @@
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hHB-Rk-2Th" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hHB-Rk-2Th" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="3" width="188.33333333333334" height="116.66666666666667"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TriangleWin" translatesAutoresizingMaskIntoConstraints="NO" id="l6I-Zt-gIp">
@@ -1875,7 +1875,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PiZ-o4-6tu" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PiZ-o4-6tu" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="156.66666666666666" y="191.33333333333331" width="80" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tie" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQi-iF-oDF">
@@ -1934,7 +1934,7 @@
                                     <constraint firstItem="9no-0g-6Tl" firstAttribute="top" secondItem="cM4-Xo-Qn7" secondAttribute="bottom" constant="5" id="zhx-fT-Ozv"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uuy-bQ-mBO" customClass="CircularProgressBarView" customModule="Baccarat_Live" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uuy-bQ-mBO" customClass="CircularProgressBarView" customModule="BaccarateKit" customModuleProvider="target">
                                 <rect key="frame" x="308" y="108" width="70" height="70"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="gfgfg" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="CwC-md-OIk">
@@ -2147,7 +2147,7 @@
         <!--RecordsVC-->
         <scene sceneID="rqU-Fg-Hlq">
             <objects>
-                <viewController storyboardIdentifier="RecordsVC" id="9Ey-UP-ciS" userLabel="RecordsVC" customClass="RecordsVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RecordsVC" id="9Ey-UP-ciS" userLabel="RecordsVC" customClass="RecordsVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MQX-o0-lnY"/>
                         <viewControllerLayoutGuide type="bottom" id="cLD-hF-las"/>
@@ -2156,7 +2156,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user-avatar" translatesAutoresizingMaskIntoConstraints="NO" id="us2-RR-O67" customClass="ImageViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user-avatar" translatesAutoresizingMaskIntoConstraints="NO" id="us2-RR-O67" customClass="ImageViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                 <rect key="frame" x="16" y="119" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="IdW-DA-M7X"/>
@@ -2209,10 +2209,10 @@
                             <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="254" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="yL7-BZ-G8d" userLabel="WalletStackView">
                                 <rect key="frame" x="74" y="143" width="303" height="57"/>
                                 <subviews>
-                                    <view clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="bpb-Oa-kny" userLabel="View Design1" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="bpb-Oa-kny" userLabel="View Design1" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="303" height="26"/>
                                         <subviews>
-                                            <view clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="1LJ-Dg-a8W" userLabel="View Design1" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <view clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="1LJ-Dg-a8W" userLabel="View Design1" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="278.66666666666669" height="26"/>
                                                 <color key="backgroundColor" red="0.96078431610000004" green="0.9529411793" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <userDefinedRuntimeAttributes>
@@ -2257,10 +2257,10 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P1M-VG-1Mg" userLabel="View Design2" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P1M-VG-1Mg" userLabel="View Design2" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="31" width="303" height="26"/>
                                         <subviews>
-                                            <view clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="NIs-IW-pIc" userLabel="View Design1" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <view clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="NIs-IW-pIc" userLabel="View Design1" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="146.66666666666666" height="26"/>
                                                 <color key="backgroundColor" red="0.96078431610000004" green="0.9529411793" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <userDefinedRuntimeAttributes>
@@ -2312,7 +2312,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="RTb-zk-TCf">
                                 <rect key="frame" x="16" y="208" width="361" height="47"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LQF-lS-nXo" customClass="SegmentButton" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LQF-lS-nXo" customClass="SegmentButton" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="47"/>
                                         <color key="tintColor" red="0.89411771299999998" green="0.81176471709999998" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -2340,7 +2340,7 @@
                                             <action selector="bettingRecordButtonAction" destination="9Ey-UP-ciS" eventType="touchUpInside" id="yh4-OX-T2F"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mLF-aF-5EP" customClass="SegmentButton" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mLF-aF-5EP" customClass="SegmentButton" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="121.66666666666666" y="0.0" width="117.66666666666666" height="47"/>
                                         <color key="tintColor" red="0.89411771299999998" green="0.81176471709999998" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -2370,7 +2370,7 @@
                                             <action selector="accountChangeButtonAction" destination="9Ey-UP-ciS" eventType="touchUpInside" id="tO4-KV-BpO"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EtN-CI-Uyh" customClass="SegmentButton" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EtN-CI-Uyh" customClass="SegmentButton" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="243.33333333333329" y="0.0" width="117.66666666666666" height="47"/>
                                         <color key="tintColor" red="0.89411771299999998" green="0.81176471709999998" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
@@ -2399,7 +2399,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="qRp-js-5t9">
                                 <rect key="frame" x="16" y="263" width="361" height="34"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bd0-En-Y7q" customClass="TextfieldDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bd0-En-Y7q" customClass="TextfieldDesign" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="140" height="34"/>
                                         <color key="textColor" red="0.36078431370000003" green="0.23529411759999999" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
@@ -2408,7 +2408,7 @@
                                             <userDefinedRuntimeAttribute type="image" keyPath="rightImage" value="down-arrow"/>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="56T-oK-fTK" customClass="TextfieldDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="56T-oK-fTK" customClass="TextfieldDesign" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="144" y="0.0" width="139.66666666666663" height="34"/>
                                         <color key="textColor" red="0.36078431370000003" green="0.23529411759999999" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
@@ -2417,7 +2417,7 @@
                                             <userDefinedRuntimeAttribute type="image" keyPath="rightImage" value="down-arrow"/>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYc-5T-smH" customClass="SegmentButton" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYc-5T-smH" customClass="SegmentButton" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="287.66666666666669" y="0.0" width="73.333333333333314" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="0B2-k0-ric"/>
@@ -2511,7 +2511,7 @@
                                     </constraints>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="44" id="FbZ-Tk-Mrf" customClass="RecordTVCell" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="44" id="FbZ-Tk-Mrf" customClass="RecordTVCell" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="110" width="361" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FbZ-Tk-Mrf" id="Tkq-cy-t4a">
@@ -2737,7 +2737,7 @@
         <!--Limit Info PopupVC-->
         <scene sceneID="2c1-Vg-Fax">
             <objects>
-                <viewController storyboardIdentifier="LimitInfoPopupVC" id="2HM-Fs-G9P" customClass="LimitInfoPopupVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LimitInfoPopupVC" id="2HM-Fs-G9P" customClass="LimitInfoPopupVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JMu-wE-ndT"/>
                         <viewControllerLayoutGuide type="bottom" id="EVm-Xc-Ca5"/>
@@ -3032,7 +3032,7 @@
         <!--Details-->
         <scene sceneID="ZNQ-3M-86V">
             <objects>
-                <viewController storyboardIdentifier="RecordDetailVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="L1T-Nx-ZdN" customClass="RecordDetailVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RecordDetailVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="L1T-Nx-ZdN" customClass="RecordDetailVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Rai-rr-pME"/>
                         <viewControllerLayoutGuide type="bottom" id="T1p-bi-tiQ"/>
@@ -3099,7 +3099,7 @@
                                     </constraints>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="44" id="91c-kI-vwS" customClass="RecordDetailTVCell" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="44" id="91c-kI-vwS" customClass="RecordDetailTVCell" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="110" width="361" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="91c-kI-vwS" id="YzX-CT-uBk">
@@ -3222,7 +3222,7 @@
         <!--LoginVC-->
         <scene sceneID="QFM-v1-So9">
             <objects>
-                <viewController storyboardIdentifier="LoginVC" id="I4p-NQ-j9W" customClass="LoginVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginVC" id="I4p-NQ-j9W" customClass="LoginVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="14N-LX-ZQw"/>
                         <viewControllerLayoutGuide type="bottom" id="r1Z-4L-W9o"/>
@@ -3241,7 +3241,7 @@
                                     <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xob-jw-rp6">
                                         <rect key="frame" x="0.0" y="0.0" width="363" height="413"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fS-sY-jx1" customClass="TtlFieldLbl" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fS-sY-jx1" customClass="TtlFieldLbl" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="20" y="128.00000000000003" width="71.333333333333329" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="hn8-ZY-QQN"/>
@@ -3250,10 +3250,10 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bg3-nm-Rol" userLabel="MobileView" customClass="FieldViewLogin" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bg3-nm-Rol" userLabel="MobileView" customClass="FieldViewLogin" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="20" y="153.00000000000003" width="323" height="45"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Please enter user name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5aH-Gn-xsF" customClass="KKTxtField" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Please enter user name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5aH-Gn-xsF" customClass="KKTxtField" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="323" height="45"/>
                                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3273,7 +3273,7 @@
                                             <constraint firstAttribute="height" constant="45" id="d5T-SL-hC7"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tkC-jx-y7V" customClass="TtlFieldLbl" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tkC-jx-y7V" customClass="TtlFieldLbl" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="20" y="218.00000000000003" width="60" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="Vjk-s4-uoU"/>
@@ -3282,10 +3282,10 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="09E-tj-Raa" userLabel="PasswordView" customClass="FieldViewLogin" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="09E-tj-Raa" userLabel="PasswordView" customClass="FieldViewLogin" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="20" y="243" width="323" height="45"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Please enter password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GFV-51-WHR" customClass="KKTxtField" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Please enter password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GFV-51-WHR" customClass="KKTxtField" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="323" height="45"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3398,7 +3398,7 @@
                                     <constraint firstItem="iI0-vg-6xH" firstAttribute="top" secondItem="Zwa-Mf-NiE" secondAttribute="bottom" constant="20" id="z4w-th-K7I"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eg7-sA-Tg5" customClass="RoundView2" customModule="Baccarat_Live" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eg7-sA-Tg5" customClass="RoundView2" customModule="BaccarateKit" customModuleProvider="target">
                                 <rect key="frame" x="213" y="79" width="160" height="52"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XBx-lN-h2e">
@@ -3489,7 +3489,7 @@
         <!--Add CoinsVC-->
         <scene sceneID="ZfU-fz-JqK">
             <objects>
-                <viewController storyboardIdentifier="AddCoinsVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="41V-7Y-vnP" customClass="AddCoinsVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddCoinsVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="41V-7Y-vnP" customClass="AddCoinsVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="E6M-VH-JDI"/>
                         <viewControllerLayoutGuide type="bottom" id="Slt-iP-RkE"/>
@@ -3506,7 +3506,7 @@
                                 </view>
                                 <blurEffect style="regular"/>
                             </visualEffectView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eQm-JL-XKu" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eQm-JL-XKu" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                 <rect key="frame" x="20" y="203" width="353" height="446"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GTV-pf-JuP">
@@ -3548,7 +3548,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="0h0-5C-f3c">
                                         <rect key="frame" x="66.666666666666686" y="404" width="220" height="34"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DDn-an-hty" customClass="ButtonDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DDn-an-hty" customClass="ButtonDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="34"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -3568,7 +3568,7 @@
                                                     <action selector="closeButtonAction:" destination="41V-7Y-vnP" eventType="touchUpInside" id="W2z-3O-Cl5"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6G0-gh-M9t" customClass="ButtonDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6G0-gh-M9t" customClass="ButtonDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="120" y="0.0" width="100" height="34"/>
                                                 <color key="backgroundColor" red="0.89411771299999998" green="0.81176471709999998" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
@@ -3590,7 +3590,7 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9lY-4M-JGj" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9lY-4M-JGj" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="8" y="59" width="337" height="337"/>
                                         <subviews>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Cw3-QA-ZrF">
@@ -3603,7 +3603,7 @@
                                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 </collectionViewFlowLayout>
                                                 <cells>
-                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="LvF-LH-bnw" customClass="AddCoinCVCell" customModule="Baccarat_Live" customModuleProvider="target">
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="LvF-LH-bnw" customClass="AddCoinCVCell" customModule="BaccarateKit" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="80" height="106"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="aF1-cg-KTf">
@@ -3617,11 +3617,11 @@
                                                                         <constraint firstAttribute="height" constant="60" id="rHl-F6-h9F"/>
                                                                     </constraints>
                                                                 </imageView>
-                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kjm-Sd-pC2" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kjm-Sd-pC2" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                                     <rect key="frame" x="28" y="71" width="24" height="24"/>
                                                                     <subviews>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0GJ-Wo-EX2">
-                                                                            <rect key="frame" x="4" y="8.0000000000000036" width="16" height="8.9999999999999929"/>
+                                                                            <rect key="frame" x="4" y="7.9999999999999991" width="16" height="9"/>
                                                                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
                                                                         </imageView>
@@ -3726,7 +3726,7 @@
         <!--Switch Game RoomVC-->
         <scene sceneID="RIJ-OC-9hf">
             <objects>
-                <viewController storyboardIdentifier="SwitchGameRoomVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aHV-Ei-xIo" customClass="SwitchGameRoomVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SwitchGameRoomVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aHV-Ei-xIo" customClass="SwitchGameRoomVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1a0-fI-c7E"/>
                         <viewControllerLayoutGuide type="bottom" id="7tH-T5-y28"/>
@@ -3745,7 +3745,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="arR-Fg-60X" customClass="SwitchRoomCVCell" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="arR-Fg-60X" customClass="SwitchRoomCVCell" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="189" height="500"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="jjA-Ra-eJ7">
@@ -3755,7 +3755,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ugq-LU-8j9">
                                                     <rect key="frame" x="0.0" y="0.0" width="189" height="30"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Baccarat Table - 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8kh-6U-ZdN" customClass="RoomListLabel" customModule="Baccarat_Live" customModuleProvider="target">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Baccarat Table - 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8kh-6U-ZdN" customClass="RoomListLabel" customModule="BaccarateKit" customModuleProvider="target">
                                                             <rect key="frame" x="8" y="8" width="70" height="14"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="70" id="9at-ef-BmX"/>
@@ -3764,10 +3764,10 @@
                                                             <color key="textColor" red="0.25490196079999999" green="0.31372549020000001" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P5P-WI-1Ek" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P5P-WI-1Ek" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                             <rect key="frame" x="83" y="4" width="102" height="22"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settlement" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CHD-bf-J6j" customClass="RoomListLabel" customModule="Baccarat_Live" customModuleProvider="target">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settlement" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CHD-bf-J6j" customClass="RoomListLabel" customModule="BaccarateKit" customModuleProvider="target">
                                                                     <rect key="frame" x="2" y="4" width="96" height="14"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="50" id="ItW-B0-ZeB"/>
@@ -3855,7 +3855,7 @@
         <!--ShuffleVC-->
         <scene sceneID="Ka7-Ib-Suo">
             <objects>
-                <viewController storyboardIdentifier="ShuffleVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="iHv-OC-MbN" customClass="ShuffleVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ShuffleVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="iHv-OC-MbN" customClass="ShuffleVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="G82-F2-tvq"/>
                         <viewControllerLayoutGuide type="bottom" id="Ygk-iv-f5m"/>
@@ -3872,7 +3872,7 @@
                                 </view>
                                 <blurEffect style="regular"/>
                             </visualEffectView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GkC-TB-PU9" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GkC-TB-PU9" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                 <rect key="frame" x="20" y="185.66666666666663" width="353" height="481"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mea-7w-OtG">
@@ -3979,7 +3979,7 @@
                                         <color key="textColor" red="0.25098040700000002" green="0.30980393290000002" blue="0.38823530080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3UX-qH-YgA" customClass="ButtonDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3UX-qH-YgA" customClass="ButtonDesign" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="126.66666666666666" y="427" width="100" height="34"/>
                                         <color key="backgroundColor" red="0.89411764709999997" green="0.81176471709999998" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -4068,7 +4068,7 @@
         <!--HomeVC-->
         <scene sceneID="jm2-2x-eN4">
             <objects>
-                <viewController storyboardIdentifier="HomeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Lbq-L7-Diy" customClass="HomeVC" customModule="Baccarate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Lbq-L7-Diy" customClass="HomeVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UhD-lC-PCj"/>
                         <viewControllerLayoutGuide type="bottom" id="emD-Se-Ojg"/>
@@ -4155,7 +4155,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wiz-yw-4sA" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wiz-yw-4sA" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="165" width="393" height="687"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tableBG" translatesAutoresizingMaskIntoConstraints="NO" id="7Y7-2h-yQ3">
@@ -4174,7 +4174,7 @@
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GameCollecCell" id="umc-ts-z7J" customClass="GameCollecCell" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GameCollecCell" id="umc-ts-z7J" customClass="GameCollecCell" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="50"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -4231,7 +4231,7 @@
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PlaceCollecCell" id="Ieg-Ks-BeB" customClass="PlaceCollecCell" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PlaceCollecCell" id="Ieg-Ks-BeB" customClass="PlaceCollecCell" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="-5" width="150" height="50"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -4281,14 +4281,14 @@
                                         <rect key="frame" x="8" y="108" width="377" height="579"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="212" id="aaO-zk-Dow" customClass="RoomTVCell" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="212" id="aaO-zk-Dow" customClass="RoomTVCell" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="50" width="377" height="212"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aaO-zk-Dow" id="6G5-dt-1kQ">
                                                     <rect key="frame" x="0.0" y="0.0" width="377" height="212"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Baccarat Table - 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3m-pe-GBL" customClass="RoomListLabel" customModule="Baccarat_Live" customModuleProvider="target">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Baccarat Table - 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3m-pe-GBL" customClass="RoomListLabel" customModule="BaccarateKit" customModuleProvider="target">
                                                             <rect key="frame" x="8" y="8" width="112" height="20"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="20" id="V5J-7d-17e"/>
@@ -4297,7 +4297,7 @@
                                                             <color key="textColor" red="0.25490196079999999" green="0.31372549020000001" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bet Limit: 1-10000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="osq-xj-RDa" customClass="RoomListLabel" customModule="Baccarat_Live" customModuleProvider="target">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bet Limit: 1-10000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="osq-xj-RDa" customClass="RoomListLabel" customModule="BaccarateKit" customModuleProvider="target">
                                                             <rect key="frame" x="8" y="184" width="117" height="20"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="20" id="zcr-k0-cJl"/>
@@ -4306,7 +4306,7 @@
                                                             <color key="textColor" red="0.25490196079999999" green="0.31372549020000001" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDF-DI-pdL" customClass="RoomListLabel" customModule="Baccarat_Live" customModuleProvider="target">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDF-DI-pdL" customClass="RoomListLabel" customModule="BaccarateKit" customModuleProvider="target">
                                                             <rect key="frame" x="352.66666666666669" y="184" width="16.333333333333314" height="20"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="20" id="kOa-aH-mrw"/>
@@ -4323,7 +4323,7 @@
                                                                 <constraint firstAttribute="width" constant="16" id="aNf-iz-UdJ"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1kD-Gi-RR4" customClass="RoomListLabel" customModule="Baccarat_Live" customModuleProvider="target">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1kD-Gi-RR4" customClass="RoomListLabel" customModule="BaccarateKit" customModuleProvider="target">
                                                             <rect key="frame" x="369" y="8" width="0.0" height="20"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="20" id="1OF-Hl-XHh"/>
@@ -4400,7 +4400,7 @@
                                                                 <constraint firstAttribute="height" constant="12" id="UDF-c6-ET8"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IbS-Am-3Oc" customClass="RoomListLabel" customModule="Baccarat_Live" customModuleProvider="target">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IbS-Am-3Oc" customClass="RoomListLabel" customModule="BaccarateKit" customModuleProvider="target">
                                                             <rect key="frame" x="300.66666666666669" y="184" width="16" height="20"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="20" id="zq5-0V-0rG"/>
@@ -4416,7 +4416,7 @@
                                                                 <constraint firstAttribute="height" constant="12" id="V8S-OM-JKs"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZ0-ql-8sb" customClass="RoomListLabel" customModule="Baccarat_Live" customModuleProvider="target">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZ0-ql-8sb" customClass="RoomListLabel" customModule="BaccarateKit" customModuleProvider="target">
                                                             <rect key="frame" x="247.99999999999997" y="184" width="16.666666666666657" height="20"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="20" id="PEm-tX-iCy"/>
@@ -4432,7 +4432,7 @@
                                                                 <constraint firstAttribute="height" constant="12" id="L4i-Bc-3bS"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4rQ-9A-stP" customClass="RoomListLabel" customModule="Baccarat_Live" customModuleProvider="target">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4rQ-9A-stP" customClass="RoomListLabel" customModule="BaccarateKit" customModuleProvider="target">
                                                             <rect key="frame" x="195.66666666666666" y="184" width="16.333333333333343" height="20"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="20" id="rxp-jE-7An"/>
@@ -4586,7 +4586,7 @@
         <!--Fees StatusVC-->
         <scene sceneID="gTf-Xz-3E2">
             <objects>
-                <viewController storyboardIdentifier="FeesStatusVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PCh-Co-IBn" customClass="FeesStatusVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FeesStatusVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PCh-Co-IBn" customClass="FeesStatusVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UKi-Z6-J7r"/>
                         <viewControllerLayoutGuide type="bottom" id="MfZ-hT-FQ5"/>
@@ -4603,7 +4603,7 @@
                                 </view>
                                 <blurEffect style="regular"/>
                             </visualEffectView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CEj-uu-33w" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CEj-uu-33w" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                 <rect key="frame" x="20" y="286.66666666666669" width="353" height="279.00000000000006"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T21-73-Rn3">
@@ -4645,7 +4645,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="pC8-WR-17K">
                                         <rect key="frame" x="66.666666666666686" y="225" width="220" height="34"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TH2-qR-hKM" customClass="ButtonDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TH2-qR-hKM" customClass="ButtonDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="34"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -4665,7 +4665,7 @@
                                                     <action selector="closeButtonAction:" destination="PCh-Co-IBn" eventType="touchUpInside" id="C98-Kb-mwo"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="od4-1l-pKz" customClass="ButtonDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="od4-1l-pKz" customClass="ButtonDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="120" y="0.0" width="100" height="34"/>
                                                 <color key="backgroundColor" red="0.89411771299999998" green="0.81176471709999998" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
@@ -4687,7 +4687,7 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fes-eb-Mdt" customClass="RoundView2" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fes-eb-Mdt" customClass="RoundView2" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="6" y="61" width="337" height="55"/>
                                         <color key="backgroundColor" red="0.96470588450000005" green="0.96470588450000005" blue="0.96470588450000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <userDefinedRuntimeAttributes>
@@ -4736,7 +4736,7 @@
                                             <constraint firstAttribute="height" constant="1" id="r9q-bC-6wn"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bN0-fp-zbQ" customClass="RoundView2" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bN0-fp-zbQ" customClass="RoundView2" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="6" y="130" width="337" height="55"/>
                                         <color key="backgroundColor" red="0.96470588450000005" green="0.96470588450000005" blue="0.96470588450000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <userDefinedRuntimeAttributes>
@@ -4861,7 +4861,7 @@
         <!--Customer ServiceVC-->
         <scene sceneID="LcB-uD-xmI">
             <objects>
-                <viewController storyboardIdentifier="CustomerServiceVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dVz-Hp-1Nm" customClass="CustomerServiceVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CustomerServiceVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dVz-Hp-1Nm" customClass="CustomerServiceVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RGp-QT-5Nn"/>
                         <viewControllerLayoutGuide type="bottom" id="Y2e-32-BId"/>
@@ -4878,7 +4878,7 @@
                                 </view>
                                 <blurEffect style="regular"/>
                             </visualEffectView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lha-eX-gPf" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lha-eX-gPf" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                 <rect key="frame" x="20" y="159.66666666666663" width="353" height="533"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E2m-Ma-D1t">
@@ -4924,14 +4924,14 @@
                                             <constraint firstAttribute="height" constant="450" id="E3q-BC-U0D"/>
                                         </constraints>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CustomerServiceCell" rowHeight="80" id="ZIf-oW-LHM" customClass="CustomerServiceCell" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CustomerServiceCell" rowHeight="80" id="ZIf-oW-LHM" customClass="CustomerServiceCell" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="50" width="337" height="80"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZIf-oW-LHM" id="nq9-is-S0z">
                                                     <rect key="frame" x="0.0" y="0.0" width="337" height="80"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Nw-hB-frv" customClass="RoundView2" customModule="Baccarat_Live" customModuleProvider="target">
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Nw-hB-frv" customClass="RoundView2" customModule="BaccarateKit" customModuleProvider="target">
                                                             <rect key="frame" x="10" y="5" width="317" height="70"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6wL-KV-3tc">
@@ -5054,7 +5054,7 @@
         <!--AppQRVC-->
         <scene sceneID="fvF-6J-HUw">
             <objects>
-                <viewController storyboardIdentifier="AppQRVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uL7-1p-Hm3" customClass="AppQRVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AppQRVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uL7-1p-Hm3" customClass="AppQRVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XtK-oI-uMp"/>
                         <viewControllerLayoutGuide type="bottom" id="XBH-jN-a5g"/>
@@ -5071,7 +5071,7 @@
                                 </view>
                                 <blurEffect style="regular"/>
                             </visualEffectView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g8c-v3-4r9" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g8c-v3-4r9" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                 <rect key="frame" x="20" y="253" width="353" height="346"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aUX-Qb-Tzd">
@@ -5127,7 +5127,7 @@
                                                     <constraint firstAttribute="width" constant="25" id="egs-7K-yag"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GwN-Dz-Pkd" customClass="ButtonDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GwN-Dz-Pkd" customClass="ButtonDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="23.333333333333343" y="160" width="100" height="34"/>
                                                 <color key="backgroundColor" red="0.89411771299999998" green="0.81176471709999998" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
@@ -5174,7 +5174,7 @@
                                                     <constraint firstAttribute="width" constant="27" id="hR7-kP-BFw"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugL-Cx-l4r" customClass="ButtonDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugL-Cx-l4r" customClass="ButtonDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="23" y="160" width="100" height="34"/>
                                                 <color key="backgroundColor" red="0.89411771299999998" green="0.81176471709999998" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="16"/>
@@ -5246,7 +5246,7 @@
         <!--SoundVC-->
         <scene sceneID="xjV-bH-6AC">
             <objects>
-                <viewController storyboardIdentifier="SoundVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hvk-g9-ngF" customClass="SoundVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SoundVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hvk-g9-ngF" customClass="SoundVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OFh-Wn-gK9"/>
                         <viewControllerLayoutGuide type="bottom" id="Jrh-6m-tbq"/>
@@ -5263,7 +5263,7 @@
                                 </view>
                                 <blurEffect style="regular"/>
                             </visualEffectView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="po2-q9-1m6" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="po2-q9-1m6" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                 <rect key="frame" x="20" y="312" width="353" height="228"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1eu-U6-nw4">
@@ -5487,7 +5487,7 @@
         <!--Side MenuVC-->
         <scene sceneID="dsJ-B6-xG6">
             <objects>
-                <viewController storyboardIdentifier="SideMenuVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="e2C-X1-DEq" customClass="SideMenuVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SideMenuVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="e2C-X1-DEq" customClass="SideMenuVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="I5m-CT-D3k"/>
                         <viewControllerLayoutGuide type="bottom" id="HMS-Oh-KPa"/>
@@ -5503,7 +5503,7 @@
                                 <rect key="frame" x="0.0" y="103" width="393" height="690.66666666666663"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="60" id="iPw-9y-jGD" customClass="SideMenuTVCell" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="60" id="iPw-9y-jGD" customClass="SideMenuTVCell" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iPw-9y-jGD" id="Q5A-HN-LmS">
@@ -5584,7 +5584,7 @@
         <!--Code Wash Pop UpVC-->
         <scene sceneID="Sdv-ab-kTa">
             <objects>
-                <viewController storyboardIdentifier="CodeWashPopUpVC" id="s5g-eO-YBn" customClass="CodeWashPopUpVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CodeWashPopUpVC" id="s5g-eO-YBn" customClass="CodeWashPopUpVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fL1-5S-nhl"/>
                         <viewControllerLayoutGuide type="bottom" id="h9k-mI-HbQ"/>
@@ -5623,7 +5623,7 @@
         <!--Ranking-->
         <scene sceneID="bAQ-pU-QY1">
             <objects>
-                <viewController storyboardIdentifier="RankingVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="z0r-l0-wWK" customClass="RankingVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RankingVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="z0r-l0-wWK" customClass="RankingVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BLo-as-32E"/>
                         <viewControllerLayoutGuide type="bottom" id="b8Y-hs-OoV"/>
@@ -5635,7 +5635,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="PBJ-oL-wYX">
                                 <rect key="frame" x="16" y="119" width="361" height="34"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z10-oV-fgP" customClass="SegmentButton" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z10-oV-fgP" customClass="SegmentButton" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="109.66666666666667" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="ZBm-h3-I2Q"/>
@@ -5657,7 +5657,7 @@
                                             <action selector="richListButtonAction:" destination="z0r-l0-wWK" eventType="touchUpInside" id="pdn-6q-ysW"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8LL-OI-0dE" customClass="SegmentButton" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8LL-OI-0dE" customClass="SegmentButton" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="125.66666666666666" y="0.0" width="109.66666666666666" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="OAj-GQ-A0U"/>
@@ -5679,7 +5679,7 @@
                                             <action selector="winnerListButtonAction:" destination="z0r-l0-wWK" eventType="touchUpInside" id="gnA-1c-Q73"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIb-Rb-uSo" customClass="SegmentButton" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIb-Rb-uSo" customClass="SegmentButton" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="251.33333333333329" y="0.0" width="109.66666666666666" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="W3n-lR-vXB"/>
@@ -5752,7 +5752,7 @@
                                     </constraints>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="44" id="TGC-Wi-lIe" customClass="RankingTVCell" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="44" id="TGC-Wi-lIe" customClass="RankingTVCell" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="110" width="361" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TGC-Wi-lIe" id="DCh-U6-DHa">
@@ -5867,7 +5867,7 @@
         <!--SecurityVC-->
         <scene sceneID="Tda-yP-qEl">
             <objects>
-                <viewController storyboardIdentifier="SecurityVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5ne-UG-CbY" customClass="SecurityVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecurityVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5ne-UG-CbY" customClass="SecurityVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zGf-iD-Kwf"/>
                         <viewControllerLayoutGuide type="bottom" id="Yv8-fs-TDu"/>
@@ -5884,7 +5884,7 @@
                                 </view>
                                 <blurEffect style="regular"/>
                             </visualEffectView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eY6-1k-gWu" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eY6-1k-gWu" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                 <rect key="frame" x="20" y="253" width="353" height="346"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zfk-8m-Okl">
@@ -5935,7 +5935,7 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password should be 6-15 charaters or numbers" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UKt-9j-Pii" customClass="KKTxtField" customModule="Baccarat_Live" customModuleProvider="target">
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password should be 6-15 charaters or numbers" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UKt-9j-Pii" customClass="KKTxtField" customModule="BaccarateKit" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="23.666666666666686" width="321" height="34"/>
                                                         <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" red="0.36078431370000003" green="0.23529411759999999" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -5963,7 +5963,7 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password should be 6-15 charaters or numbers" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Kl-se-y0A" customClass="KKTxtField" customModule="Baccarat_Live" customModuleProvider="target">
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password should be 6-15 charaters or numbers" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Kl-se-y0A" customClass="KKTxtField" customModule="BaccarateKit" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="23.666666666666629" width="321" height="34"/>
                                                         <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" red="0.36078431370000003" green="0.23529411759999999" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -5991,7 +5991,7 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password should be 6-15 charaters or numbers" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HGx-Gf-tUg" customClass="KKTxtField" customModule="Baccarat_Live" customModuleProvider="target">
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password should be 6-15 charaters or numbers" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HGx-Gf-tUg" customClass="KKTxtField" customModule="BaccarateKit" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="23.666666666666686" width="321" height="34"/>
                                                         <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" red="0.36078431370000003" green="0.23529411759999999" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -6017,7 +6017,7 @@
                                             <constraint firstItem="1fB-He-ss9" firstAttribute="centerX" secondItem="Vmk-IQ-bYb" secondAttribute="centerX" id="XLt-Sa-VCX"/>
                                         </constraints>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Akz-5h-5Fv" customClass="ButtonDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Akz-5h-5Fv" customClass="ButtonDesign" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="118.66666666666666" y="292" width="116" height="34"/>
                                         <color key="backgroundColor" red="0.89411771299999998" green="0.81176471709999998" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -6087,7 +6087,7 @@
         <!--LogoutVC-->
         <scene sceneID="u8L-o1-K05">
             <objects>
-                <viewController storyboardIdentifier="LogoutVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="L1J-lh-c6c" customClass="LogoutVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LogoutVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="L1J-lh-c6c" customClass="LogoutVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Mvs-xg-e9c"/>
                         <viewControllerLayoutGuide type="bottom" id="p7Z-y2-fKk"/>
@@ -6104,7 +6104,7 @@
                                 </view>
                                 <blurEffect style="regular"/>
                             </visualEffectView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zWE-u7-qge" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zWE-u7-qge" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                 <rect key="frame" x="20" y="343.66666666666669" width="353" height="165"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cj3-qR-Dos">
@@ -6138,7 +6138,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="uvt-Zp-ylE">
                                         <rect key="frame" x="66.666666666666686" y="111" width="220" height="34"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIX-As-mqy" customClass="ButtonDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIX-As-mqy" customClass="ButtonDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="34"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -6158,7 +6158,7 @@
                                                     <action selector="cancelButtonAction:" destination="L1J-lh-c6c" eventType="touchUpInside" id="fQF-RW-OBj"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0I-AE-H5c" customClass="ButtonDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0I-AE-H5c" customClass="ButtonDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="120" y="0.0" width="100" height="34"/>
                                                 <color key="backgroundColor" red="0.89411771299999998" green="0.81176471709999998" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
@@ -6226,7 +6226,7 @@
         <!--Rolling Rules-->
         <scene sceneID="9sE-tZ-ua7">
             <objects>
-                <viewController storyboardIdentifier="RollingRulesVC" id="o6r-GD-Ucn" customClass="RollingRulesVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RollingRulesVC" id="o6r-GD-Ucn" customClass="RollingRulesVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bYJ-SV-0ey"/>
                         <viewControllerLayoutGuide type="bottom" id="rNj-4h-YHD"/>
@@ -6288,7 +6288,7 @@
         <!--AnnouncementVC-->
         <scene sceneID="rVX-GW-5G8">
             <objects>
-                <viewController storyboardIdentifier="AnnouncementVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Uem-vc-DDf" userLabel="AnnouncementVC" customClass="AnnouncementVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AnnouncementVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Uem-vc-DDf" userLabel="AnnouncementVC" customClass="AnnouncementVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="n8i-5H-etO"/>
                         <viewControllerLayoutGuide type="bottom" id="4ui-5e-DKl"/>
@@ -6301,14 +6301,14 @@
                                 <rect key="frame" x="16" y="113" width="361" height="705"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AnnouceCell" rowHeight="208" id="mlP-pU-BkJ" customClass="AnnouceCell" customModule="Baccarat_Live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AnnouceCell" rowHeight="208" id="mlP-pU-BkJ" customClass="AnnouceCell" customModule="BaccarateKit" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="361" height="208"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mlP-pU-BkJ" id="Irc-xe-AvX">
                                             <rect key="frame" x="0.0" y="0.0" width="361" height="208"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ou-8q-v7b" customClass="RoundView2" customModule="Baccarat_Live" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ou-8q-v7b" customClass="RoundView2" customModule="BaccarateKit" customModuleProvider="target">
                                                     <rect key="frame" x="10" y="5" width="341" height="198"/>
                                                     <color key="backgroundColor" red="0.96470588450000005" green="0.96470588450000005" blue="0.96470588450000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <userDefinedRuntimeAttributes>
@@ -6386,7 +6386,7 @@
         <!--Image DispayVC-->
         <scene sceneID="E3D-fO-VJw">
             <objects>
-                <viewController storyboardIdentifier="ImageDispayVC" id="pLo-iu-O2X" customClass="ImageDispayVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ImageDispayVC" id="pLo-iu-O2X" customClass="ImageDispayVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gi9-P9-iml"/>
                         <viewControllerLayoutGuide type="bottom" id="fCw-it-Sdq"/>
@@ -6463,7 +6463,7 @@
         <!--LanguageVC-->
         <scene sceneID="6HA-0P-9IU">
             <objects>
-                <viewController storyboardIdentifier="LanguageVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="osw-2P-3ml" customClass="LanguageVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LanguageVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="osw-2P-3ml" customClass="LanguageVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kxL-Ky-Irc"/>
                         <viewControllerLayoutGuide type="bottom" id="LQm-HR-5Hq"/>
@@ -6480,7 +6480,7 @@
                                 </view>
                                 <blurEffect style="regular"/>
                             </visualEffectView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f2w-f5-EFz" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f2w-f5-EFz" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                 <rect key="frame" x="20" y="272.66666666666669" width="353" height="307.00000000000006"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tcH-SA-pBm">
@@ -6532,14 +6532,14 @@
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="xYc-JK-6eQ" customClass="LanguageCVCell" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="xYc-JK-6eQ" customClass="LanguageCVCell" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="5sR-rC-yPf">
                                                     <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <subviews>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Xk-oo-fWd" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Xk-oo-fWd" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lie-NP-84n">
@@ -6573,7 +6573,7 @@
                                                                 </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
                                                         </view>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ajK-WF-jge" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ajK-WF-jge" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                             <rect key="frame" x="55" y="106" width="18" height="18"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P8Q-2K-0NM">
@@ -6681,7 +6681,7 @@
         <!--Player List PopupVC-->
         <scene sceneID="yBo-co-eMw">
             <objects>
-                <viewController storyboardIdentifier="PlayerListPopupVC" id="Wpb-ti-SgD" customClass="PlayerListPopupVC" customModule="Baccarat_Live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PlayerListPopupVC" id="Wpb-ti-SgD" customClass="PlayerListPopupVC" customModule="BaccarateKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NYk-2o-CYg"/>
                         <viewControllerLayoutGuide type="bottom" id="vJN-JE-yBH"/>
@@ -6690,7 +6690,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="200" height="590"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p7C-Aj-NOA" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p7C-Aj-NOA" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="200" height="411"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BdE-Fl-S9x">
@@ -6726,14 +6726,14 @@
                                             <constraint firstAttribute="height" constant="340" id="VEA-pf-YYy"/>
                                         </constraints>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="GamePlayersCell" rowHeight="40" id="Wa5-AJ-BRd" customClass="GamePlayersCell" customModule="Baccarat_Live" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="GamePlayersCell" rowHeight="40" id="Wa5-AJ-BRd" customClass="GamePlayersCell" customModule="BaccarateKit" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="50" width="180" height="40"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Wa5-AJ-BRd" id="usc-tq-tgu">
                                                     <rect key="frame" x="0.0" y="0.0" width="180" height="40"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q57-ht-jfd" customClass="ViewDesign" customModule="Baccarat_Live" customModuleProvider="target">
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q57-ht-jfd" customClass="ViewDesign" customModule="BaccarateKit" customModuleProvider="target">
                                                             <rect key="frame" x="10" y="5" width="160" height="30"/>
                                                             <subviews>
                                                                 <label autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0K-O5-sWd">

@@ -44,6 +44,7 @@ public class HomeVC: UIViewController {
     var placeListArr = [PlaceData]()
     var selectedcategoryID =  101
     var selectedPlaceID =  1
+    
     override public func viewDidLoad() {
         super.viewDidLoad()
         bGViewForTable.isHidden = true
@@ -54,19 +55,24 @@ public class HomeVC: UIViewController {
         self.refreshControl.attributedTitle = NSAttributedString(string: "")
         self.refreshControl.addTarget(self, action: #selector(refreshData), for: .valueChanged)
         self.roomTable.refreshControl = self.refreshControl
-        if Datamanager.shared.isUserAuthenticated {
-            // Get Room List when user authenticated
-            self.eventHandler = DashboardPresenter(ui: self, wireframe: ProjectWireframe())
-            self.getAPiCall()
-        } else {
-            // Show Login VC when user not authenticated
-            showLoginVC()
-        }
+   
         initializeEmptyView()
         self.placeCollecView.tag = 2
         self.placeCollecView.delegate = self
         self.placeCollecView.dataSource = self
     }
+    
+    public override func viewDidAppear(_ animated: Bool) {
+        if Datamanager.shared.isUserAuthenticated {
+            // Get Room List when user authenticated
+            self.eventHandler = DashboardPresenter(ui: self, wireframe: ProjectWireframe())
+            self.getAPiCall()
+        } else {
+            showLoginVC()
+        }
+    }
+    
+    
     @objc func showOfflineDeviceUI(notification: Notification) {
        // if !(currentVC is LoginVC) && (Utils.lastVC() != nil) && (Utils.lastVC() is HomeVC) && Datamanager.shared.isUserAuthenticated {
         if !(currentVC is LoginVC) && Datamanager.shared.isUserAuthenticated {
